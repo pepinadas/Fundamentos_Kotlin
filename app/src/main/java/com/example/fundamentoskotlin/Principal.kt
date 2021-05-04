@@ -14,6 +14,14 @@ fun main () {
     var b: Int
     b = 5
     println("b = $b")
+
+    var objNull: Any?
+    objNull = null
+    objNull = "Hi"
+
+    println(objNull)
+
+
 }
 
 fun newTopic(topic: String){
